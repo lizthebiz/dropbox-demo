@@ -14,6 +14,9 @@
 		D10E58381BC4E98E00DB8961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10E58361BC4E98E00DB8961 /* LaunchScreen.storyboard */; };
 		D10E58431BC4E98E00DB8961 /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E58421BC4E98E00DB8961 /* dropboxTests.swift */; };
 		D10E584E1BC4E98E00DB8961 /* dropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E584D1BC4E98E00DB8961 /* dropboxUITests.swift */; };
+		D10E58981BC8D70800DB8961 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E58971BC8D70800DB8961 /* welcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D10E589B1BC8EF6600DB8961 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E589A1BC8EF6600DB8961 /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D10E589D1BC8F95100DB8961 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10E589C1BC8F95100DB8961 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D10E58491BC4E98E00DB8961 /* dropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10E584D1BC4E98E00DB8961 /* dropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropboxUITests.swift; sourceTree = "<group>"; };
 		D10E584F1BC4E98E00DB8961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D10E58971BC8D70800DB8961 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		D10E589A1BC8EF6600DB8961 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		D10E589C1BC8F95100DB8961 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		D10E582C1BC4E98E00DB8961 /* dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				D10E58991BC8D71500DB8961 /* View Controllers */,
 				D10E582D1BC4E98E00DB8961 /* AppDelegate.swift */,
 				D10E582F1BC4E98E00DB8961 /* ViewController.swift */,
 				D10E58311BC4E98E00DB8961 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				D10E584F1BC4E98E00DB8961 /* Info.plist */,
 			);
 			path = dropboxUITests;
+			sourceTree = "<group>";
+		};
+		D10E58991BC8D71500DB8961 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D10E58971BC8D70800DB8961 /* welcomeViewController.swift */,
+				D10E589A1BC8EF6600DB8961 /* CreateAccountRootViewController.swift */,
+				D10E589C1BC8F95100DB8961 /* CreateAccountViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10E589D1BC8F95100DB8961 /* CreateAccountViewController.swift in Sources */,
+				D10E589B1BC8EF6600DB8961 /* CreateAccountRootViewController.swift in Sources */,
+				D10E58981BC8D70800DB8961 /* welcomeViewController.swift in Sources */,
 				D10E58301BC4E98E00DB8961 /* ViewController.swift in Sources */,
 				D10E582E1BC4E98E00DB8961 /* AppDelegate.swift in Sources */,
 			);
@@ -396,7 +416,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = dropbox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -409,7 +428,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = dropbox/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -485,6 +503,7 @@
 				D10E58541BC4E98E00DB8961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D10E58551BC4E98E00DB8961 /* Build configuration list for PBXNativeTarget "dropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +512,7 @@
 				D10E58571BC4E98E00DB8961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D10E58581BC4E98E00DB8961 /* Build configuration list for PBXNativeTarget "dropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +521,7 @@
 				D10E585A1BC4E98E00DB8961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
