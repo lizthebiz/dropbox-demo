@@ -21,6 +21,8 @@
 		D1D33E181BC90B20006E258A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D33E171BC90B20006E258A /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D1D33E1A1BC9EB3C006E258A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D33E191BC9EB3C006E258A /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D1D33E1C1BC9EFA8006E258A /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D33E1B1BC9EFA8006E258A /* FilesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D1D33E201BCB6AEA006E258A /* SignInPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D33E1F1BCB6AEA006E258A /* SignInPhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D1D33E221BCB70DE006E258A /* SignInSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D33E211BCB70DE006E258A /* SignInSettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		D1D33E171BC90B20006E258A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D1D33E191BC9EB3C006E258A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D1D33E1B1BC9EFA8006E258A /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		D1D33E1F1BCB6AEA006E258A /* SignInPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInPhotosViewController.swift; sourceTree = "<group>"; };
+		D1D33E211BCB70DE006E258A /* SignInSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 				D1D33E171BC90B20006E258A /* SignInViewController.swift */,
 				D1D33E191BC9EB3C006E258A /* SettingsViewController.swift */,
 				D1D33E1B1BC9EFA8006E258A /* FilesViewController.swift */,
+				D1D33E1F1BCB6AEA006E258A /* SignInPhotosViewController.swift */,
+				D1D33E211BCB70DE006E258A /* SignInSettingsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -288,8 +294,10 @@
 				D10E589D1BC8F95100DB8961 /* CreateAccountViewController.swift in Sources */,
 				D10E589B1BC8EF6600DB8961 /* CreateAccountRootViewController.swift in Sources */,
 				D1D33E161BC90B02006E258A /* SignInRootViewController.swift in Sources */,
+				D1D33E201BCB6AEA006E258A /* SignInPhotosViewController.swift in Sources */,
 				D10E58981BC8D70800DB8961 /* welcomeViewController.swift in Sources */,
 				D10E58301BC4E98E00DB8961 /* ViewController.swift in Sources */,
+				D1D33E221BCB70DE006E258A /* SignInSettingsViewController.swift in Sources */,
 				D10E582E1BC4E98E00DB8961 /* AppDelegate.swift in Sources */,
 				D1D33E1C1BC9EFA8006E258A /* FilesViewController.swift in Sources */,
 				D1D33E1A1BC9EB3C006E258A /* SettingsViewController.swift in Sources */,
