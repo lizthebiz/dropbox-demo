@@ -6,7 +6,7 @@ Time spent: ~ 11 hours spent in total *(Took my time + fiddled with some things 
 
 ## Completed user stories:
 
-**Optional: You should be able to swipe through the welcome screens instead of just tapping them.**
+**Optional: You can swipe through the welcome screens instead of just tapping them.** *Whee!*
 
 **Required: User can follow the create user flow.**
 * On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
