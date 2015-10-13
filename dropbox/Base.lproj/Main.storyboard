@@ -24,13 +24,6 @@
                                     <segue destination="EF3-GC-86N" kind="modal" animates="NO" id="H7r-Fw-t01"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hrJ-bZ-wfC">
-                                <rect key="frame" x="765" y="463" width="70" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="3xE-TS-kBX" kind="modal" animates="NO" id="SJz-Ne-NKH"/>
-                                </connections>
-                            </button>
                         </subviews>
                     </scrollView>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -60,14 +53,14 @@
                                 <rect key="frame" x="0.0" y="468" width="320" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="dh3-Pk-szF" kind="push" id="6pY-05-zOl"/>
+                                    <segue destination="dh3-Pk-szF" kind="push" id="PeB-DJ-jpR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="z9N-gk-LjO">
                                 <rect key="frame" x="0.0" y="424" width="320" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="mpN-OC-3hp" kind="push" id="52U-dR-XH4"/>
+                                    <segue destination="mpN-OC-3hp" kind="push" id="AjB-kR-V15"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -324,6 +317,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RUA-uU-xXD">
+                                <rect key="frame" x="0.0" y="693" width="320" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="3xE-TS-kBX" kind="modal" modalTransitionStyle="coverVertical" id="iV3-sI-NWq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </scrollView>
@@ -456,9 +456,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ALm-ni-UbB"/>
-                    <connections>
-                        <segue destination="mpN-OC-3hp" kind="push" identifier="signinSegue" id="aiI-EH-sRT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWV-Oy-O7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -591,6 +588,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OIJ-Re-qz4">
+                                <rect key="frame" x="0.0" y="693" width="320" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="3xE-TS-kBX" kind="modal" modalTransitionStyle="coverVertical" id="Ygh-F9-ird"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </scrollView>
@@ -679,6 +683,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="3xE-TS-kBX" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="xHI-4J-XOJ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oQm-MH-wqj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -870,10 +875,11 @@
         <image name="welcome_combined" width="960" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="52U-dR-XH4"/>
-        <segue reference="rQw-ac-uLp"/>
-        <segue reference="2kR-VC-Ejo"/>
         <segue reference="Otm-TM-qrC"/>
         <segue reference="ixD-bV-9RI"/>
+        <segue reference="Ygh-F9-ird"/>
+        <segue reference="2kR-VC-Ejo"/>
+        <segue reference="rQw-ac-uLp"/>
+        <segue reference="AjB-kR-V15"/>
     </inferredMetricsTieBreakers>
 </document>
